@@ -9,10 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet var collectionView: UICollectionView!
     @IBOutlet var bottomView: UIView!
     @IBOutlet var bottomHeightConstraint: NSLayoutConstraint!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
